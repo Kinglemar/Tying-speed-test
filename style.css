@@ -1,0 +1,176 @@
+/*--------------------------------------------------------------
+Typography
+--------------------------------------------------------------*/
+
+body,
+button,
+input,
+select {
+	font-family: 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+a{
+    padding: 0;
+    margin: 0;
+}
+
+textarea{
+    font-size: .9em;
+    font-family: 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
+    line-height: 1.5;
+    background-color:#aaa1c8;
+    color: #ff0054;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+
+
+
+/*--------------------------------------------------------------
+Layout
+--------------------------------------------------------------*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.masthead {
+    padding: 0.5em 2em;
+    background-color: #967aa1;
+    color:azure;
+}
+
+.masthead h1 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.intro {
+    padding: .5em 2em;
+    color: #ffffff;
+    background: #192a51;
+    font-size: .9em;
+}
+
+
+.intro p,
+.test-area {
+    margin: 0 auto 0;
+    max-width: 650px;
+}
+
+.test-area {
+    margin-bottom: 2em;
+    padding: 0 2em;
+    border: 10px;
+}
+
+.main{
+    background-color: #d5c6e0;
+}
+
+.test-wrapper {
+    border: 7px solid #bfc0c0;
+    border-radius: 10px;
+}
+
+#origin-text {
+    margin: .5em 0;
+    padding: 1em 1em 0;
+    background-color: #f5e6e8;
+    color: #f94144;
+}
+
+#origin-text p {
+    margin: 0;
+    padding-bottom: 1em;
+    font-size: 1.05rem;
+}
+
+.test-wrapper {
+    height: 100%;
+    display: flex;
+}
+
+.test-wrapper textarea {
+    flex: 1;
+}
+
+.meta {
+    margin-top: .7em;
+    margin-bottom: 0em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.timer {
+    font-size: 1.5em;
+    font-weight: bold;
+    height: 1.5em;
+}
+
+#reset {
+    padding: .3em .5em;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: red;
+    background:#003049 ;
+    border: 8px solid  #a91d4e;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    height: 3.5em;
+}
+
+.scale{
+    margin: 0em 0em 0;
+    display: flex;
+    padding: .3em .5em;
+    font-size: 1.2em;
+    font-weight: bold;
+    color:  #da1e37;
+    background: #003049 ;
+    border: 15px solid #a91d4e;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    max-width: 200px;
+}
+
+.scale:hover{
+    color: white;
+    background-color: #da1e37;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#reset:hover {
+    color: white;
+    background-color: #da1e37;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.timer{
+    padding: .3em .5em; 
+    background-color: #003049;
+    border: 4px;
+    border-radius: 10px;
+    color: #da1e37;;
+    margin-bottom: 10px;
+    border: 8px solid #a91d4e;
+}
