@@ -24,6 +24,10 @@ textarea{
     color: #ff0054;
 }
 
+textarea::placeholder{
+    color:#192a51 ;
+}
+
 h1,
 h2,
 h3,

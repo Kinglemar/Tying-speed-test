@@ -54,7 +54,7 @@ function spellCheck(){
         swap.style.color = "green"
         inputBox.style.color = "green"
         clearInterval(interval)
-        alert("Congratulations you've completed the test! You completed the test within" + " " + timer[0] + " " + "Minutes" + " " + timer[1] + " " + "Seconds, with an error count of " + errors + "." + " " + "You typed " + wordPerMin() + " " + "words per minutes" + ".")
+        alert("Congratulations you've completed the test! You completed the test within" + " " + timer[0] + " " + "Minutes" + " " + timer[1] + " " + "Seconds, with an error count of " + errors + "." + " " + "You type at the rate of " + wordPerMin() + " " + "words per minutes" + ".")
     } else{
         if(textinput == progress){
             colorChanger.style.borderColor = "blue"
